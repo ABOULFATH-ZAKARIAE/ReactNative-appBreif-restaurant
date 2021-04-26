@@ -40,7 +40,7 @@ const BottomNavigator = () => {
               <View style={{position:'absolute', height:30, width:30,borderRadius:15,backgroundColor: COLORS.secondary,right:15,bottom:15,alignItems:'center',
               justifyContent:'center', zIndex:2000
               }}>
-                <Text style={{color: 'white', fontWeight: 'bold'}}>0</Text>
+                <Text style={{color: 'white', fontWeight: 'bold'}}>4</Text>
               </View>
               <Icon name="shopping-cart" color={color} size={28} />
             </View>

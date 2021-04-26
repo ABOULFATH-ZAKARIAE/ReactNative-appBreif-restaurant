@@ -1,6 +1,6 @@
 import React from 'react';
 import {Dimensions, Image, SafeAreaView,StyleSheet, Text, View,} from 'react-native';
-import {FlatList, ScrollView, TextInput, TouchableHightLight,TouchableOpacity} from 'react-native-gesture-handler';
+import {FlatList} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import COLORS from '../../consts/colors';
 import foods from '../../consts/foods';
@@ -10,33 +10,7 @@ const cardWidth = width / 2-20;
 
 
 const HomeScreen = ({navigation}) => {
-
-    // const Card = ({item}) => {
-    //     return(
-    //         // <TouchableHightLight
-    //         // underlayColor={COLORS.white}
-    //         // activateOpacity={0.9}
-    //         // onPress={() => navigation.navigate('DetailsScreen', food)}>
-    //         // <View style={style.card}>
-    //         //     <View style={{alignItems: 'center', top:-40}}>
-    //         //         <Image source={food.image} style={{height:120, width:120}}/>
-    //         //     </View>
-    //         //     <View style={{marginHorizontal:20}}>
-    //         //         <Text style={{fontSize:18, fontWeight:'bold'}}>{food.name}</Text>
-    //         //         <Text style={{fontSize:14, color:COLORS.grey, marginTop:2}}>{food.ingrediants}</Text>
-    //         //     </View>
-    //         //     <View style={{marginTop:10,marginHorizontal:20,flexDirection:'row',justifyContent:'space-between',}}>
-    //         //         <Text style={{fontSize:18,fontWeight:'bold'}}>${food.price}</Text>
-    //         //         <View style={style.addToCartBtn}>
-    //         //             <Icon name="add" size={20} color={COLORS.grey}/>
-    //         //         </View>
-    //         //     </View>
-    //         // </View>
-    //         // </TouchableHightLight>
-            
-    //     );
-    // };
-    return (
+return (
         <SafeAreaView style={{flex: 1, backgroundColor: COLORS.white}}>
           <View style={style.header}>
             <View>

@@ -3123,6 +3123,14 @@ expo-keep-awake@~9.1.2:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-9.1.2.tgz#b3e52c7bef0ade975ae88637a2bf980f6b573368"
   integrity sha512-CCuEOQUNLYtMA0rt0sQ9u5LlIMH7lDJG7dImoorfKMsP95yHXy8dl3oCdtaz2zbsPgggVYeom9gE+gQu+Ki4rQ==
 
+expo-payments-stripe@~9.2.3:
+  version "9.2.3"
+  resolved "https://registry.yarnpkg.com/expo-payments-stripe/-/expo-payments-stripe-9.2.3.tgz#f5d10c65e907a6e056e8b3112bb6737eebce20fc"
+  integrity sha512-jeZTqRsUEnvg5gsBcDWJSSE+hJUQA/Mji72ZAfCTtCGZb8Ixu0f+62K5CTuciqkmbcRPB8a1/YZuF6y6zhxPEg==
+  dependencies:
+    "@expo/config-plugins" "^1.0.18"
+    prop-types "^15.6.0"
+
 expo-status-bar@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.0.4.tgz#d8a4c4418b5868c1606969b12bdee85b6fa7d8a4"
@@ -6110,6 +6118,11 @@ tinycolor2@^1.4.1:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
+
+tipsi-stripe@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/tipsi-stripe/-/tipsi-stripe-9.0.0.tgz#fd7e72167af297a5a5e1a5409e347cad5350b7fc"
+  integrity sha512-nOfFsRYlqvsr0zbDfCUmXypmZ8stWpp++zHmaKSVge67M5Sc4Swpg+p9+tBZYkssatg2MSYv1WRalCIni0TEIA==
 
 tmp@^0.0.33:
   version "0.0.33"
